@@ -4,7 +4,7 @@
  
 using namespace std;
  
-void merge(int a[], int Firstindex, int m, int Lastindex); //merges the sub-arrays which are created while dividing
+void merge(int a[], int Firstindex, int m, int Lastindex); //merges the sub-arrays which are created while doing the division
  
 void mergeSort(int a[], int Firstindex, int Lastindex) 
 { 
@@ -74,7 +74,7 @@ void merge(int a[], int Firstindex, int m, int Lastindex)
 int main() 
 { 
     int size;
-    cout<<"Enter the size of the Array that is to be sorted: "; cin>>size;
+    cout<<"Enter the preferred size of the Array that is to be sorted: "; cin>>size;
     int Hello[size],i;
     cout<<"Enter the values of the array one by one:";
     for(i=0; i<size; i++) cin>>Hello[i];
